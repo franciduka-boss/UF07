@@ -10,9 +10,19 @@
     border: 3px solid #2196f3;
     padding: 20px;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 #header_afp{
     text-align: center;
+}
+
+.layout-container{
+    display: flex;
+    gap: 20px;
+}
+
+#main-content{
+    flex: 1;
+    /* height:max-content; */
 }
